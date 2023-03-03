@@ -47,7 +47,7 @@ const addEmployee = () => {
         .prompt([
             {
                 type: "list",
-                name: "command",
+                name: "role",
                 message: "What is the employee's role?",
                 choices: ["Engineer", "Intern"],
             },
